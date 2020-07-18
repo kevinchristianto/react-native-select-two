@@ -260,9 +260,9 @@ class Select2 extends Component {
 // define your styles
 const styles = StyleSheet.create({
     container: {
-        width: '100%', minHeight: 45, borderRadius: 2, paddingHorizontal: 16,
+        width: '100%', minHeight: 35, borderRadius: 8, paddingHorizontal: 16,
         flexDirection: 'row', alignItems: 'center', borderWidth: 1,
-        borderColor: '#cacaca', paddingVertical: 4
+        borderColor: '#cacaca', paddingVertical: 2
     },
     modalContainer: {
         paddingTop: 16, backgroundColor: '#fff', borderTopLeftRadius: 8, borderTopRightRadius: 8
