@@ -260,7 +260,7 @@ class Select2 extends Component {
 // define your styles
 const styles = StyleSheet.create({
     container: {
-        width: '100%', minHeight: 35, borderRadius: 8, paddingHorizontal: 16,
+        width: '100%', minHeight: 35, borderRadius: 8, paddingHorizontal: 20,
         flexDirection: 'row', alignItems: 'center', borderWidth: 1,
         borderColor: '#cacaca', paddingVertical: 4
     },
