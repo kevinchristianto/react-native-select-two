@@ -220,7 +220,7 @@ class Select2 extends Component {
                     preSelectedItem.length > 0
                         ? (
                             isSelectSingle
-                                ? <Text style={[styles.selectedTitlte, this.defaultFont, selectedTitleStyle, { color: '#71aff5' }]}>{preSelectedItem[0].name}</Text>
+                                ? <Text style={[styles.selectedTitlte, this.defaultFont, selectedTitleStyle, { color: '#295aa7' }]}>{preSelectedItem[0].name}</Text>
                                 : <View style={styles.tagWrapper}>
                                     {
                                         preSelectedItem.map((tag, index) => {
@@ -284,7 +284,7 @@ const styles = StyleSheet.create({
         height: 36, flex: 1
     },
     selectedTitlte: {
-        fontSize: 14, color: 'gray', flex: 1, color: '#71aff5', textAlign: 'center'
+        fontSize: 14, color: 'gray', flex: 1, color: '#295aa7', textAlign: 'center'
     },
     tagWrapper: {
         flexDirection: 'row', flexWrap: 'wrap'
